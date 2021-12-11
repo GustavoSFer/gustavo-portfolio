@@ -1,13 +1,16 @@
-import Header from './pages/Header';
+import { Routes ,Route } from 'react-router-dom';
 import './App.css';
-import Footer from './pages/Footer';
+import Portfolio from './pages/Portfolio';
+import Sobre from './pages/Sobre';
+import Projects from './pages/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Footer />
-    </div>
+    <Routes>
+      <Route exact path="/" element={ <Portfolio /> } />
+      <Route path="/Sobre" element={ <Sobre /> } />
+      <Route path="Projects" element={ <Projects /> } />
+    </Routes>
   );
 }
 
