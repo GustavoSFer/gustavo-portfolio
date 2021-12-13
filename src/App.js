@@ -3,6 +3,7 @@ import './App.css';
 import Portfolio from './pages/Portfolio';
 import Sobre from './pages/Sobre';
 import Projects from './pages/Projects';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

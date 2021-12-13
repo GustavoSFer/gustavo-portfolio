@@ -4,7 +4,12 @@ class Sobre extends React.Component {
   render() {
     return (
       <div>
-        sobre
+        <div>
+          <p>Sobre mim ...... hdusahdushaduhas</p>
+        </div>
+        <div>
+          <img src="" alt="" />
+        </div>
       </div>
     );
   }
