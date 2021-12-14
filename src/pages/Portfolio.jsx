@@ -1,20 +1,16 @@
 import React from 'react';
-import Header from '../Components/Header';
-import Footer from '../Components/Footer';
-import Sobre from './Sobre';
 import Projects from './Projects';
+import Header from '../Components/Header';
+import Sobre from './Sobre';
 
-class Portfolio extends React.Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <Sobre />
-        <Projects />
-        <Footer />
-      </div>
-    );
-  }
+function Portfolio() {
+  return(
+    <div>
+      <Header />
+      <Sobre />
+      <Projects />
+    </div>
+  );
 }
 
 export default Portfolio;

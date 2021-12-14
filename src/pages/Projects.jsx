@@ -1,26 +1,25 @@
 import React from 'react';
-import data from '../data';
+import ButtonCarrosel from '../Components/ButtonCarrosel';
+import CarroselItem from '../Components/CarroselItem';
+import ButtonPrevios from '../Components/ButtonPrevios';
 
-class Projects extends React.Component {
-  render() {
-    return (
-      <main>
-        {data.map((item) => (
-          <div key={ item.id }> 
-            <div className="border border-primary">
-              <a href={item.URL} target="_blank" rel="noopener noreferrer">
-                <img src={item.img} alt="imagem do projeto" />
-              </a>
-            </div>
-            <div>
-              <p>{item.nameProject}</p>
-              <p>{item.descripion}</p>
-            </div>
-          </div>))
-        }
-      </main>
-    );
-  }
+function Projects() {
+  return(
+    <div className="bg-secondary text-white">
+      <div className="tamanho-project">
+        <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-indicators">
+            <ButtonCarrosel />
+          </div>
+          <div className="carousel-inner">
+          <CarroselItem />
+          </div>
+          <ButtonPrevios />
+        </div>
+      </div>
+     
+  </div>
+  );
 }
 
 export default Projects;
