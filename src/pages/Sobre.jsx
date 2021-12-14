@@ -1,9 +1,10 @@
 import  React from 'react';
 import pc from '../imagens/pc.png';
+import '../Style/sobre.css';
 
 function Sobre() {
   return (
-    <div className="row p-2 pt-5 bg-light text-dark bg-dark p-3">
+    <div className="row bg-light text-dark bg-dark p-3 pt-5 width-pg">
       <div className="col-sm-6 text-color pt-4">
         <div className="text-center mb-4">
           <h1>Olá, eu sou o Gustavo.</h1>

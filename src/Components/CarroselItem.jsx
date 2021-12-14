@@ -1,21 +1,49 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef } from "react";
 import myContext from "../ContextAPI/MyContext";
+import '../Style/carousel.css';
 
 function CarroselItem() {
   const { data } = useContext(myContext)
-  return (
-    <div className="m-5">
-      {data.map((item) => (
-         <div key={item.id} className="carousel-item active">
-         <img src={item.img} className="d-block w-100 h-100 tamanho-project" alt="..." />
-         <div className="carousel-caption d-none d-md-block">
-           <h5>{item.nameProject}</h5>
-           <p>{item.description}</p>
-         </div>
-       </div>
-      ))}
+  const carousel = useRef(null);
+
+  const handleLeftClick = (e) => {
+    e.preventDefault()
+    carousel.current.scrollLeft -= carousel.current.offsetWidth;
+  }
+
+  const handleRightClick = (e) => {
+    e.preventDefault()
+    carousel.current.scrollLeft += carousel.current.offsetWidth;
+  }
+
+  if(!data || !data.length) return null;
+
+  return(
+    <div className="container">
+      {console.log(data)}
+      <div className="carousel" ref={ carousel }>
+        {data.map((item) => (
+          <div className="item" key={item.id}>
+            <div className="image">
+              <img src={item.img} alt={item.nameProject} />
+            </div>
+            <div className="info">
+              <h5 className="text-center mt-3 mb-0">Projeto: </h5>
+              <span className="name" >{item.nameProject}</span>
+              <h5 className="text-center mt-3 mb-0">Descrição do projeto</h5>
+              <span className="descricao" >{item.description}</span>
+            </div>
+          </div>
+        ))}
+
+      </div>
+      <div className="buttons">
+          <button onClick={ handleLeftClick } className="buttonLeft"></button>
+          <button onClick={ handleRightClick } className="buttonRight"></button>
+      </div>
     </div>
   );
+
 }
 
 export default CarroselItem;
