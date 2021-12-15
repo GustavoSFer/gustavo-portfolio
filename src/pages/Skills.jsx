@@ -15,7 +15,8 @@ function Skills() {
     'Pensamento Crítico','Criatividade',
     'Liderança','Empatia',
     'Colaboração em times',
-    'Gestão de tempo'
+    'Gestão de tempo', 'Escuta ativa',
+    'Flexibilidade e resiliência'
   ];
 
   const [skillState, setSkillState] = useState([])
@@ -60,7 +61,7 @@ function Skills() {
               skillState.map((item, index) => (
                 <li
                   key={ index }
-                  className="list-habilidades col-3 d-flex justify-content-evenly"
+                  className="list-habilidades col-sm-3 d-flex justify-content-evenly font-text-skill"
                 >
                   {item}
                 </li>

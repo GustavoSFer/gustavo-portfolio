@@ -19,7 +19,7 @@ function CarroselItem() {
   if(!data || !data.length) return null;
 
   return(
-    <div className="container">
+    <div className="container conttt">
       <div className="carousel" ref={ carousel }>
         {data.map((item) => (
           <div className="item text-center" key={item.id}>
@@ -27,9 +27,9 @@ function CarroselItem() {
               <img src={item.img} alt={item.nameProject} />
             </div>
             <div className="info">
-              <h5 className="text-center mt-3 mb-0">Projeto: </h5>
+              <h5 className="text-center mt-3 mb-0 item-text">Projeto: </h5>
               <span className="name" >{item.nameProject}</span>
-              <h5 className="text-center mt-3 mb-0">Descrição do projeto</h5>
+              <h5 className="text-center mt-3 mb-0 item-text">Descrição do projeto</h5>
               <span className="descricao" >{item.description}</span>
             </div>
             <a

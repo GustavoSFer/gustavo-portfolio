@@ -75,3 +75,49 @@
 .buttons .buttonRight {
   transform: rotate(180deg);
 }
+
+@media only screen and ( max-width : 750px ) {
+  .container .carousel .item {
+    width: 250px;
+    height: 500px;
+  }
+  .image {
+    height: 150px;
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and ( max-width : 550px ) {
+  .container .carousel .item {
+    width: 150px;
+    height: 360px;
+  }
+
+  .image {
+    height: 100px;
+    width: 140px;
+    margin: 0 auto;
+  }
+
+  .item {
+    font-size: 8px;
+  }
+
+  .item-text {
+    font-size: 9px;
+  }
+}
+
+@media only screen and ( max-width : 380px ) {
+  .item {
+    font-size: 10px;
+  }
+}
+
+@media only screen and ( max-width : 321px ) {
+  .container .carousel {
+    width: 100%;
+    margin: 0;
+  }
+}

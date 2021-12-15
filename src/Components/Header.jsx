@@ -3,7 +3,7 @@ import '../Style/header.css';
 
 function Header() {
   return(
-    <div className="text-center bg-dark p-3">
+    <div className="text-center bg-dark p-3 font-text">
       <h1 className="fw-bold text-color">Gustavo Fernandes</h1>
       <div className="p-3">
         <a href="#Sobre" className="m-2 text-decoration-none text-color">sobre Mim</a>

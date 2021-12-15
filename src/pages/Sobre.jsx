@@ -6,15 +6,18 @@ function Sobre() {
   return (
     <div className="row bg-dark p-3 pt-5 width-pg">
       <div className="col-sm-6 text-color pt-4 mb-5">
-        <div className="text-center mb-4">
+        <div className="text-center mb-4 font-text">
           <h1>Olá, eu sou o Gustavo.</h1>
         </div>
-        <div className="fontFamily">
+        <div className="fontFamily font-text">
           <p>
-          Sou uma pessoa apaixonado pela tecnologia e ver o que podemos fazer com ela. 
+            Sou uma pessoa apaixonado pela tecnologia!!!
           </p>
           <p>
-          Gosto de gerar novas ideias e desenvolver soluções viáveis para problemas amplamente relevantes.
+            Gosto de gerar novas ideias e desenvolver soluções viáveis para problemas amplamente relevantes.
+          </p>
+          <p>
+            Adoro ensinar pessoas e compartilhar conhecimentos, de forma que cada troca acrescenta um aprendizado para cada um de nós.
           </p>
           <p>
           Atualmente estou estudando Desenvolvimento web pela escola <span className="fw-bolder">Trybe</span>. Mas antes disso começei a faculdade de Ciências da computação pela Universidade Anhembi Morumbi. Resolvi tranca-la para começar o curso na Trybe, mas pretendo retornar.
