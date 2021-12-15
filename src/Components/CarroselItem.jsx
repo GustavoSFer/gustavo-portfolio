@@ -20,7 +20,6 @@ function CarroselItem() {
 
   return(
     <div className="container">
-      {console.log(data)}
       <div className="carousel" ref={ carousel }>
         {data.map((item) => (
           <div className="item text-center" key={item.id}>

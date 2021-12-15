@@ -1,0 +1,17 @@
+.container-skills {
+  background: url('../imagens/skills.jpg');
+  padding: 0 20px;
+}
+.tag-html {
+  width: 40px;
+  height: 28px;
+}
+
+.list-habilidades {
+  display: inline;
+  color: rgb(209, 209, 209);
+  border: 1px solid rgb(70, 70, 70);
+  margin: 5px 10px;
+  height: 60px;
+  line-height: 60px;
+}

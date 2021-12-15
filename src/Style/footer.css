@@ -1,0 +1,33 @@
+.container-contato {
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.img-1 {
+  background-image: url('../imagens/github.png');
+}
+
+.img-2 {
+  background-image: url('../imagens/linkedin.png');
+}
+
+.img-3 {
+  background-image: url('../imagens/facebook.png');
+  width: 34px;
+  height: 34px;
+}
+
+.img-1:hover {
+  background-image: url('../imagens/github-1.png');
+}
+
+.img-2:hover {
+  background-image: url('../imagens/linkedin-1.png');
+}
+
+.img-3:hover {
+  background-image: url('../imagens/facebook-1.png');
+}
