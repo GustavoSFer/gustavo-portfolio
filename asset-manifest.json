@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/gustavo-portfolio/static/css/main.13f817ae.chunk.css",
+    "main.js": "/gustavo-portfolio/static/js/main.75a95517.chunk.js",
+    "main.js.map": "/gustavo-portfolio/static/js/main.75a95517.chunk.js.map",
+    "runtime-main.js": "/gustavo-portfolio/static/js/runtime-main.94b45b46.js",
+    "runtime-main.js.map": "/gustavo-portfolio/static/js/runtime-main.94b45b46.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/gustavo-portfolio/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.117650ba.chunk.js": "/gustavo-portfolio/static/js/2.117650ba.chunk.js",
+    "static/js/2.117650ba.chunk.js.map": "/gustavo-portfolio/static/js/2.117650ba.chunk.js.map",
+    "static/js/3.9ada8492.chunk.js": "/gustavo-portfolio/static/js/3.9ada8492.chunk.js",
+    "static/js/3.9ada8492.chunk.js.map": "/gustavo-portfolio/static/js/3.9ada8492.chunk.js.map",
+    "index.html": "/gustavo-portfolio/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/gustavo-portfolio/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.13f817ae.chunk.css.map": "/gustavo-portfolio/static/css/main.13f817ae.chunk.css.map",
+    "static/js/2.117650ba.chunk.js.LICENSE.txt": "/gustavo-portfolio/static/js/2.117650ba.chunk.js.LICENSE.txt",
+    "static/media/app-recipes.96d02aa0.png": "/gustavo-portfolio/static/media/app-recipes.96d02aa0.png",
+    "static/media/footer.css": "/gustavo-portfolio/static/media/linkedin.c225e386.png",
+    "static/media/html.a5307553.png": "/gustavo-portfolio/static/media/html.a5307553.png",
+    "static/media/pc.44f41b46.png": "/gustavo-portfolio/static/media/pc.44f41b46.png",
+    "static/media/carousel.css": "/gustavo-portfolio/static/media/seta-esquerda.b1672afc.png",
+    "static/media/skills.css": "/gustavo-portfolio/static/media/skills.8d72eddf.jpg",
+    "static/media/soseries.3e417241.png": "/gustavo-portfolio/static/media/soseries.3e417241.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94b45b46.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.117650ba.chunk.js",
+    "static/css/main.13f817ae.chunk.css",
+    "static/js/main.75a95517.chunk.js"
+  ]
+}
