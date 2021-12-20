@@ -13,6 +13,8 @@ function Portfolio() {
       <Sobre />
       <CarroselItem />
       <Skills />
+
+      {console.log('jidgsauidfhuishfuisa')}
       <Footer />
     </div>
   );
