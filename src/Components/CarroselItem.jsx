@@ -19,7 +19,8 @@ function CarroselItem() {
   if(!data || !data.length) return null;
 
   return(
-    <div className="container conttt">
+    <div className="container conttt" id="Projetos">
+      <h1 className="item text-center"> Projetos </h1>
       <div className="carousel" ref={ carousel }>
         {data.map((item) => (
           <div className="item text-center" key={item.id}>

@@ -3,8 +3,21 @@
  font-style: italic;
  color: rgb(204, 197, 197);
 }
+
 .text-color {
   color: white;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media only screen and ( max-width : 380px ) {

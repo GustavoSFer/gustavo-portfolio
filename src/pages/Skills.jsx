@@ -34,7 +34,7 @@ function Skills() {
   }
 
   return (
-    <div className="container-skills ">
+    <div className="container-skills" id="Habilidades">
       <div className="p-3 pt-5">
         <img src={ html } alt="imagem tag html" className="tag-html" />
       </div>
