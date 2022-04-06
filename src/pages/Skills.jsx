@@ -18,7 +18,9 @@ function Skills() {
     'Liderança','Empatia',
     'Colaboração em times',
     'Gestão de tempo', 'Escuta ativa',
-    'Flexibilidade e resiliência'
+    'Flexibilidade e resiliência', 'Atitude',
+    'Negociação', 'Autogestão', 'Motivação', 'Honestidade',
+    'Aprender a aprender'
   ];
 
   const [skillState, setSkillState] = useState([])
