@@ -5,11 +5,11 @@ import '../Style/sobre.css';
 function Sobre() {
   return (
     <div className="row bg-dark p-3 pt-5 width-pg" id="Sobre">
-      <div className="col-sm-6 text-color pt-4 mb-5">
-        <div className="text-center mb-4 font-text">
-          <h1>Olá, eu sou o Gustavo.</h1>
+      <div className="col-sm-6 text-color pt-5 mb-5">
+        <div className="text-center mb-4 font-text pt-5">
+          <h1 className="pt-5">Olá, eu sou o Gustavo.</h1>
         </div>
-        <div className="fontFamily font-text">
+        <div className="fontFamily font-text pt-4">
           <p>
             Sou uma pessoa apaixonado pela tecnologia!!!
           </p>
@@ -27,8 +27,8 @@ function Sobre() {
           </p>
         </div>
       </div>
-      <div className="col-sm-6 text-center mt-4">
-        <img src={pc} alt="" className=" img-fluid" />
+      <div className="col-sm-6 text-center mt-4 pt-5">
+        <img src={pc} alt="" className=" img-fluid pt-5" />
       </div>
     </div>
   );

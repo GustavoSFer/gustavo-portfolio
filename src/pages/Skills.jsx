@@ -4,10 +4,12 @@ import html from '../imagens/html.png';
 
 function Skills() {
   const HARD_SKILL = [
-    'HTML5','CSS3','JavaScript',
-    'Linux','Git','Jest','React',
-    'Redux','ContextAPI','Docker',
-    'MySQL','Scrum','Kanban'
+    'Linux', 'Git', 'HTML5','CSS3','JavaScript',
+    'React', 'Redux','ContextAPI', 'BootStrap',
+    'Docker', 'Node.Js', 'TypeScript', 'Express.Js', 'Sequelize',
+    'MySQL', 'MondoDB',
+    'Jest', 'Mocha', 'Chai', 'Sinon.Js',
+    'Scrum','Kanban'
   ];
   const SOFT_SKILL = [
     'Inteligência Emocional','Organizado',
