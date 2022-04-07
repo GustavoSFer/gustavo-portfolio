@@ -16,7 +16,7 @@
  - cd gustavo-portfolio
 
 3 - Instale as dependências e inicialize o projeto
-[] dependências:
+
 - npm install
 - Inicialize o projeto:
 - npm start (uma nova página deve abrir no seu navegador com um texto simples)
