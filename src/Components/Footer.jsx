@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div className="row bg-dark p-3 pt-5 width-pg fontFamily text-center">
+        <div className="row bg-dark p-3 pt-5 width-pg fontFamily text-center" id="contato">
           <div className="col-sm-6 text-color pt-4 mb-5">
             <p>© Copyright 2021. All Rights Reserved.</p>
           </div>

@@ -31,3 +31,12 @@
 .img-3:hover {
   background-image: url('../imagens/facebook-1.png');
 }
+
+
+html,
+body {
+    text-align: center;
+    background-color: #273559;     
+}
+
+

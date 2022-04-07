@@ -10,6 +10,7 @@ function Header() {
         <a href="#Sobre" className="m-3 text-decoration-none text-color">Sobre Mim</a>
         <a href="#Projetos"className="m-3 text-decoration-none text-color">Projetos</a>
         <a href="#Habilidades"className="m-3 text-decoration-none text-color">Habilidades</a>
+        <a href="#contato"className="m-3 text-decoration-none text-color">Contato</a>
       </div>
     </div>
   );
