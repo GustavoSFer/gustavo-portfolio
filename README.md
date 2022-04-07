@@ -10,13 +10,13 @@
 
 ## Instrução de instalação do projeto: 
 1 - Clone o repositório
-git clone 
+ - git clone 
 
 2 - Entre na pasta do repositório que você acabou de clonar:
-cd gustavo-portfolio
+ - cd gustavo-portfolio
 
 3 - Instale as dependências e inicialize o projeto
-dependências:
+[] dependências:
 - npm install
 - Inicialize o projeto:
 - npm start (uma nova página deve abrir no seu navegador com um texto simples)
