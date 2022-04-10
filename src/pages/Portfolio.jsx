@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header';
 import Sobre from './Sobre';
-import CarroselItem from '../Components/CarroselItem';
+import Projetos from './Projetos';
 import Footer from '../Components/Footer';
 import Skills from './Skills';
 import '../App.css';
@@ -11,10 +11,8 @@ function Portfolio() {
     <div>
       <Header />
       <Sobre />
-      <CarroselItem />
+      <Projetos />
       <Skills />
-
-      {console.log('jidgsauidfhuishfuisa')}
       <Footer />
     </div>
   );

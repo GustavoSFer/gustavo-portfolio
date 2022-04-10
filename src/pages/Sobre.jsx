@@ -27,8 +27,8 @@ function Sobre() {
           </p>
         </div>
       </div>
-      <div className="col-sm-6 text-center mt-4 pt-5">
-        <img src={pc} alt="" className=" img-fluid pt-5" />
+      <div className="col-sm-6 text-center mt-4 pt-5" id="imgSobre">
+        <img src={pc} alt="Imagem garoto na frente do computador" className=" img-fluid pt-5" />
       </div>
     </div>
   );
