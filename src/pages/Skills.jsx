@@ -50,6 +50,7 @@ function Skills() {
             <button
               onClick={ handleClickHard }
               className="btn btn-primary m-4 fw-bolder"
+              id="hard skills"
             >
               Hard Skills
             </button>
